@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CommerceWave By Daniel Assis</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="app-container">
+    <header id="header">
+      <p>E-commerce desenvolvido por <b>Daniel Assis</b> para o desafio Alura & Gemini</p>
+    </header>
+
+    <nav id="nav">
+      <div class="nav-container">
+        <div class="pag">
+          <ul>
+            <li>Início</li>
+            <li>Galeria</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="O que você procura?" id="searchInput" class="search-input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="image-slider" class="image-slider">
+      <div class="slider">
+          <div class="slider-wrapper">
+              <div class="slide">
+                  <img src="assets/Frame 560.svg" alt="Image 1">
+              </div>
+              <div class="slide">
+                  <img src="assets/Frame 561.svg" alt="Image 2">
+              </div>
+              <div class="slide">
+                  <img src="assets/Frame 562.svg" alt="Image 3">
+              </div>
+          </div>
+          <button class="slider-button prev">◀</button>
+          <button class="slider-button next">▶</button>
+      </div>
+    </section>
+    
+    <section class="categories-main">
+      <article id="search-section">
+        <div class="article-title">
+          <h1>Busque por categoria</h1>
+        </div>
+        <div class="categories">
+          <div class="category-card" onclick="selectCategory(1, this)">
+            <i class="fa-solid fa-tv fa-2x"></i>
+            <p>Eletrônicos</p>
+          </div>
+          <div class="category-card" onclick="selectCategory(2, this)">
+            <i class="fa-solid fa-house fa-2x"></i>
+            <p>Para Casa</p>
+          </div>
+          <div class="category-card" onclick="selectCategory(3, this)">
+            <i class="fa-solid fa-heart fa-2x"></i>
+            <p>Saúde e Beleza</p>
+          </div>
+          <div class="category-card" onclick="selectCategory(4, this)">
+            <i class="fa-solid fa-person fa-2x"></i>
+            <p>Vestuário</p>
+          </div>
+          <div class="category-card" onclick="selectCategory(5, this)">
+            <i class="fa-solid fa-futbol fa-2x"></i>
+            <p>Esportes</p>
+          </div>
+          <div class="category-card" onclick="selectCategory(6, this)">
+            <i class="fa-solid fa-gift fa-2x"></i>
+            <p>Vale Presentes</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="clear-filters"> <!-- Inicialmente escondido -->
+        <button onclick="clearCategory()" class="clear"><i class="fa-solid fa-x"></i> Limpar Filtros</button>
+    </div>
+    
+    <div class="title-products">
+      <div class="category-indx">
+        <div class="square"></div>
+        <p>Produtos</p>
+      </div>
+    </div>
+    
+    <div class="products-page">
+      <div id="product-grid" class="product-grid"></div>
+      <div id="no-results" class="no-results" style="display: none;">
+        <p>Nenhum produto encontrado para "<span id="searchQuery"></span>".</p>
+        <p>Sentimos muito, talvez o que você procura não esteja aqui <i class="fa-solid fa-face-sad-tear"></i></p>
+      </div>
+    </div>
+    
+    <article id="gallery-section" class="gal">
+      <div class="article-title">
+        <h1>Galeria</h1>
+      </div>
+      
+      <div class="slider-container">
+        <section class="slider1">
+          <div class="slider-header">
+            <i class="fas fa-gamepad"></i>
+            <h2>Gaming</h2>
+          </div>
+          <div class="slider-wrapper1">
+            <div class="slide1">
+              <img src="assets/setup (2).jpg" alt="Image 1">
+            </div>
+            <div class="slide1">
+              <img src="assets/produtos.jpg" alt="Image 2">
+            </div>
+            <div class="slide1">
+              <img src="assets/eletronicos.png" alt="Image 3">
+            </div>
+          </div>
+          <button class="slider-button1 prev1">◀</button>
+          <button class="slider-button1 next1">▶</button>
+        </section>
+        
+        <section class="slider2">
+          <div class="slider-header">
+            <i class="fas fa-home"></i>
+            <h2>Casa</h2>
+          </div>
+          <div class="slider-wrapper2">
+            <div class="slide2">
+              <img src="assets/banheiro.jpg" alt="Image 4">
+            </div>
+            <div class="slide2">
+              <img src="assets/cozinha.jpg" alt="Image 5">
+            </div>
+            <div class="slide2">
+              <img src="assets/quarto.jpg" alt="Image 6">
+            </div>
+          </div>
+          <button class="slider-button2 prev2">◀</button>
+          <button class="slider-button2 next2">▶</button>
+        </section>
+        
+        <section class="slider3">
+          <div class="slider-header">
+            <i class="fas fa-football-ball"></i>
+            <h2>Esportes</h2>
+          </div>
+          <div class="slider-wrapper3">
+            <div class="slide3">
+              <img src="assets/academia.jpg" alt="Image 7">
+            </div>
+            <div class="slide3">
+              <img src="assets/esporte1.jpg" alt="Image 8">
+            </div>
+            <div class="slide3">
+              <img src="assets/fut.jpg" alt="Image 9">
+            </div>
+          </div>
+          <button class="slider-button3 prev3">◀</button>
+          <button class="slider-button3 next3">▶</button>
+        </section>
+      </div>
+    </article>
+    
+
+ <div class="about sobre">
+  <div class="article-title">
+    <h1>Sobre</h1>
+  </div>
+  <img src="/assets/sapiens.png" alt="" srcset="">
+  <div class="desc">
+      <p><b>mais do que uma simples plataforma de e-commerce; somos o seu parceiro confiável para uma experiência de compra online excepcional. Fundada com a missão de transformar o modo como você faz compras, nossa empresa combina tecnologia de ponta com um compromisso inabalável com a satisfação do cliente.</b></p>
+  </div>
+ </div>
+
+    <!-- Botão do carrinho -->
+<div id="cart-button" class="cart-button">
+  <i class="fa-solid fa-shopping-cart"></i>
+  <span id="cart-counter" class="cart-counter">0</span>
+</div>
+
+
+    <!-- Modal do carrinho -->
+    <div id="cart" class="cart hidden">
+      <h3> Seu carrinho <span id="close-cart-button"></span></h3>
+      <ul id="cart-items" class="cart-items"></ul>
+      <div class="cart-total" id="cart-total">Total: R$ 0.00</div>
+      <button id="checkout-button" class="checkout-button">Finalizar Compra</button>
+    </div>
+
+    <footer id="footer contato">
+      <div class="container">
+        <div class="social-icons">
+          <a href="https://github.com/nielassis" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:nielvitorba@gmail.com" target="_blank" rel="noopener" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/daniel-assis-09a295321" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/+5531983432767" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://discord.gg/EfRaA59WU5" target="_blank" rel="noopener" aria-label="Discord"><i class="fab fa-discord"></i></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 Daniel Assis. Todos os direitos reservados.</p>
+        </div>
+        <div class="footer-links">
+          <p>Contato: <a href="mailto:nielvitorba@gmail.com">nielvitorba@gmail.com</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    <script src="slider.js"></script>
+    <script src="CategorySliders.js"></script>
+</body>
+</html>
