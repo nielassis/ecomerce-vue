@@ -94,7 +94,7 @@ Esses componentes criativos são projetados para melhorar a experiência do usu�
      <h3>❗Treixo de código Aula 4</h3>
      <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281887811976302602/image.png?ex=66dd5a8e&is=66dc090e&hm=572dc4099e41c8f17dcb95a77acab5a395af6a3e92e5ec629d878813dfbfb743&" />
 
-     <h2>📚 Aprendizado com JavaScript</h2>
+<h2>📚 Aprendizado com JavaScript</h2>
 Durante o desenvolvimento deste projeto, o aprendizado com JavaScript foi fundamental para criar uma experiência de e-commerce interativa e dinâmica. Abaixo estão alguns aspectos-chave que explorei:
 
 Manipulação do DOM: Aprendi a acessar e modificar elementos da página em tempo real, permitindo atualizações dinâmicas sem a necessidade de recarregar a página. Isso foi crucial para implementar funcionalidades como a busca e filtragem de produtos.
