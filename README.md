@@ -3,15 +3,14 @@
 
 Olá, eu sou Daniel Assis, técnico em desenvolvimento web. Meu interesse por programação começou ainda na infância, quando comecei a criar algoritmos simples em C e explorar projetos com Arduino. Desde então, meu objetivo tem sido crescer e evoluir continuamente no campo da tecnologia.
 
-Neste projeto, estou desenvolvendo um e-commerce utilizando Vue.js, um framework JavaScript moderno e progressivo. A escolha do Vue.js veio após explorar diversas recomendações sobre tecnologias e ferramentas, incluindo HTML, CSS e JavaScript. A ideia de criar um e-commerce surgiu da interação com a comunidade de alunos da Alura, que é conhecida por seu suporte ativo e engajamento.
+Neste projeto, estou desenvolvendo um e-commerce utilizando JavaScript. A ideia de criar um e-commerce surgiu da interação com a comunidade de alunos da Alura, que é Bem ativa e participativa.
 
 <h2>🎨 Processo Criativo </h2>
 
-O desenvolvimento deste projeto começou com a recomendação de ferramentas para criar meu próprio site. Após consultar o Gemini sobre as melhores opções, ele sugeriu HTML, CSS e JavaScript. Com a introdução a frameworks modernos como Vue.js e React, decidi seguir com Vue.js para este projeto. A ideia de criar um e-commerce surgiu da comunidade de alunos da Alura, que é muito ativa e participativa. Participei de aulas e grupos de estudo para aprimorar meus conhecimentos.
+O desenvolvimento deste projeto começou com a recomendação de ferramentas para criar meu próprio site. Após consultar o Gemini sobre as melhores opções, ele sugeriu HTML, CSS e JavaScript. Participei de aulas e grupos de estudo para aprimorar meus conhecimentos.
 
 <h2>🌐 Tecnologias Utilizadas</h2>
 
-- **Vue.js** ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 - **JavaScript** ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1C?style=for-the-badge&logo=javascript&logoColor=black)
 - **HTML** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - **CSS** ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -74,45 +73,35 @@ Esses componentes criativos são projetados para melhorar a experiência do usu�
   1. Estrutura básica do HTML (`<!DOCTYPE>`, `<html>`, `<head>`, `<body>`)
   2. Elementos de texto e formatação (`<h1>`, `<p>`, `<a>`)
     <h3>❗Treixo de código Aula 1</h3>
-    <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281661276225011722/image.png?ex=66dc8794&is=66db3614&hm=67f7c095243a3513e0f62f39b221cad6d88c1885f4412e799ddd42262f314bbe&" />
+    <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281887465149562880/image.png?ex=66dd5a3c&is=66dc08bc&hm=ab5fd59cfbdab0ec3ac6d55543b0c430ef20ad798829473bb2f0d6c080389759&" />
 - **Aula 2**: Estilizando a página com CSS. Abordamos:
   1. Seletores e propriedades básicas
   2. Layouts de caixa e posicionamento
   3. Design responsivo e media queries
      <h3>❗Treixo de código Aula 2</h3>
-     <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281661066312548432/image.png?ex=66dc8762&is=66db35e2&hm=b5471e59b1054c9a2c682b6e200a4e392b383c4b9b8fe3fe5801e75322f02594&" /> 
+     <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281887286887321672/Captura_de_tela_2024-09-07_035837.png?ex=66dd5a11&is=66dc0891&hm=ad386a351a629b938fcd6046bedf3f9f4bd566ebf0d379eb9c8275ad6bc142bb&" /> 
 - **Aula 3**: Introdução ao JavaScript. Exploramos:
   1. Criação da base de dados
   2. Manipulação do DOM
   3. Eventos e funções
      <h3>❗Treixo de código Aula 3</h3>
-     <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281659972664692776/image.png?ex=66dc865d&is=66db34dd&hm=1e406b2dcaf594b6c9a4153b5f592a1122df62affdc45f4cc6c9420be2c3bf93&" />
+     <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281887286627270706/Captura_de_tela_2024-09-07_035825.png?ex=66dd5a11&is=66dc0891&hm=7cbc04af1126833d1c75cf073d842a2b8b3b7c0509624098a33ca2530698e014&" />
 
 - **Aula 4**: Avançando com JavaScript. Estamos focando em:
   1. Manipulação de dados
   2. Inetratividade com base de dados
   3. Implementação da funcionalidade de busca
      <h3>❗Treixo de código Aula 4</h3>
-     <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281660792260792351/image.png?ex=66dc8720&is=66db35a0&hm=dc9a6da7ced7b43a4f5ef1a55ea24b0db41d3948f07ae50d711de5b22ed44a48&" />
+     <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281887811976302602/image.png?ex=66dd5a8e&is=66dc090e&hm=572dc4099e41c8f17dcb95a77acab5a395af6a3e92e5ec629d878813dfbfb743&" />
     
-<h2>📝 Aprendizado e Criação com Vue.js</h2>
-
-### Introdução ao Vue.js
-
-Depois de adquirir uma base sólida com HTML, CSS e JavaScript, o próximo passo foi aprender sobre Vue.js, um framework JavaScript progressivo. A escolha do Vue.js se deu devido à sua simplicidade e flexibilidade, o que facilita a criação de interfaces de usuário dinâmicas e reativas.
-
-### Componentes e Estrutura
-
-No Vue.js, o conceito de componentes é fundamental. Com isso, cada parte da interface do usuário é dividida em componentes reutilizáveis e independentes. O aprendizado começou com a criação de componentes básicos, como `ProductCard` para exibir produtos e `ShopCart` para gerenciar o carrinho de compras.
 
 ### Animações e Estilo
 
-Outra parte importante foi a adição de animações e estilos modernos. Aprendi a usar transições e animações do Vue.js para criar efeitos visuais atraentes, como a animação de abertura e fechamento do carrinho de compras e dos modais.
-
+Outra parte importante foi a adição de animações e estilos modernos. Aprendi a usar transições e animações do CSS para criar efeitos visuais atraentes.
 
 <h2>📁 Visão Geral do Projeto</h2>
 
-Este projeto é um e-commerce desenvolvido com Vue.js, com o objetivo de criar uma plataforma de compra online que seja intuitiva, moderna e eficiente. A escolha do Vue.js, um framework JavaScript progressivo, permite que a aplicação ofereça uma experiência de usuário fluida e interativa, com uma interface reativa e fácil de usar.
+Este projeto é um e-commerce desenvolvido com Javascript, com o objetivo de criar uma plataforma de compra online que seja intuitiva, moderna e eficiente. A escolha do Javascript, uma linguagem que permite que a aplicação ofereça uma experiência de usuário fluida e interativa, com uma interface reativa e fácil de usar.
 
 ### Viabilidade e Desempenho
 
