@@ -93,7 +93,17 @@ Esses componentes criativos são projetados para melhorar a experiência do usu�
   3. Implementação da funcionalidade de busca
      <h3>❗Treixo de código Aula 4</h3>
      <img src="https://cdn.discordapp.com/attachments/1271570282724982796/1281887811976302602/image.png?ex=66dd5a8e&is=66dc090e&hm=572dc4099e41c8f17dcb95a77acab5a395af6a3e92e5ec629d878813dfbfb743&" />
-    
+
+     <h2>📚 Aprendizado com JavaScript</h2>
+Durante o desenvolvimento deste projeto, o aprendizado com JavaScript foi fundamental para criar uma experiência de e-commerce interativa e dinâmica. Abaixo estão alguns aspectos-chave que explorei:
+
+Manipulação do DOM: Aprendi a acessar e modificar elementos da página em tempo real, permitindo atualizações dinâmicas sem a necessidade de recarregar a página. Isso foi crucial para implementar funcionalidades como a busca e filtragem de produtos.
+
+Eventos e Interatividade: Trabalhei com eventos JavaScript para melhorar a interação do usuário. Isso incluiu a implementação de eventos de clique, mudanças em campos de entrada e interações com o carrinho de compras.
+
+Manipulação de Dados: Explorei técnicas para gerenciar e manipular dados, como armazenamento local e manipulação de arrays e objetos. Isso foi essencial para a criação de um sistema de filtragem eficiente e gestão do carrinho de compras.
+
+Design Responsivo e Animações: Aprendi a usar JavaScript para criar animações e transições
 
 ### Animações e Estilo
 
@@ -110,3 +120,6 @@ O e-commerce foi projetado para responder rapidamente às ações dos usuários 
 O desempenho da aplicação é uma prioridade. O sistema de filtragem e busca de produtos na **Página Inicial** (`Recurso de aprendizagem em aula`) é otimizado para garantir que as consultas sejam realizadas de forma rápida e eficaz, mesmo quando o catálogo de produtos cresce. 
 
 Espero que este documento forneça uma visão abrangente e clara sobre o desenvolvimento, desempenho e capacidades do meu projeto. Agradeço a todos que contribuíram para o aprendizado e suporte ao longo dessa jornada!
+
+<h1>📨 Agradecimentos</h1>
+Gostaria de expressar minha sincera gratidão à equipe da Alura. A orientação, suporte e feedback valiosos ajudaram a moldar este projeto e a melhorar minhas habilidades. A participação na comunidade e o acesso aos recursos foram fundamentais para o sucesso deste desenvolvimento.
